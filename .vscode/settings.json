@@ -1,4 +1,8 @@
 {
     "files.autoSave": "afterDelay",
-    "editor.fontSize": 18
+    "editor.fontSize": 18,
+    "files.associations": {
+        "ostream": "cpp"
+    },
+    "python.pythonPath": "E:\\Anaconda3\\python.exe"
 }

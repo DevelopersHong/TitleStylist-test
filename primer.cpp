@@ -3,10 +3,13 @@ double add(int &c,double&d);
 int main()
 {
     int a = 2;
-    double b = 2.0;
-    std::cout<<a<<"/n"<<b<<"/n"<<std::endl;
+    double b = 4.0;
+    std::cout<<a<<std::endl;
+    std::cout<<b<<std::endl;
     double e = add(a,b);
-    std::cout<<a<<"/n"<<b<<"/n"<<e;
+    std::cout<<a<<std::endl;
+    std::cout<<b<<std::endl;
+    std::cout<<e<<std::endl;
 }
 double add(int &c,double &d)
 {
